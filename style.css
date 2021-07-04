@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #220a38;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 2rem 0 2rem  2rem;
+    color: rgb(12, 201, 207);
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin:1rem;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+
+#active{
+    color: #13afdf;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: rgb(19, 175, 223);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.btn a{
+    padding:1.25rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    background-color:#220a38;
+    margin-right: 5rem;
+    text-transform: uppercase;
+}
+.btn a:hover{
+    background:#22783E;
+    padding:1.25rem;
+    color: #ffffff;
+}
+
+/* header ended here */
+
+main .document{
+    background-image: url(images/bgmain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+}
+
+main .document h1 span{
+    color: rgb(250, 37, 37);
+}
+
+main .document h2{
+    color: rgb(241, 139, 6);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-size: 5rem;
+}
+
+.document .text-part{
+    font-size: 2rem;
+    margin: 10rem 1rem 1rem 6rem;
+}
+
+.document .text-part p span{
+    font-weight: 800;
+}
+
+.document p{
+    color: blueviolet;
+    display: inline;
+    position: absolute;
+    margin-left: 16rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+/* .document img{
+    width: 100%;
+    height: 100vh;
+} */
+
