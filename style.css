@@ -26,6 +26,7 @@ nav{
     text-decoration: none;
     padding: 2rem 0 2rem  2rem;
     color: rgb(12, 201, 207);
+    text-transform: uppercase;
 }
 
 
@@ -126,6 +127,7 @@ main .document h2{
 .card-body img{
     height: 300px;
     width: 100%;
+    transition: all 0.5s;
 }
 
 .cards{
@@ -142,6 +144,13 @@ main .document h2{
     margin-bottom: 40px;
     border: 2px solid rgba(0,0,0,0.3);
     transition: all 0.5s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card-text h2{
@@ -162,6 +171,57 @@ main .document h2{
     transform: scale(1.05);
     box-shadow: 5px 10px 10px rgba(0,0,0,0.4);
     border-radius: 3px solid;
+    border-top-right-radius:10px ;
+}
+.card-body:hover img{
+    border-top-right-radius:10px ;
+
 }
 
+/*language-sec starts */
 
+.language-sec{
+    padding: 10rem 5%;
+}
+
+.lang-heading{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: #ee0f0f;
+}
+
+.card-grp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.card-heading{
+    text-align: center;
+}
+
+.card-heading h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.card-heading img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#last-card{
+    margin-left: 20px;
+}
+
+.card{
+    transition: all .5s;
+}
+
+.card:hover{
+    transform:rotate(360deg)
+
+}
