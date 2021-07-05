@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -10,7 +11,7 @@ body{
 
 header{
     background-color: #220a38;
-    font-family: 'Poppins', sans-serif;
+
 }
 
 nav{
@@ -67,20 +68,21 @@ nav ul li a:hover{
     text-transform: uppercase;
 }
 .btn a:hover{
-    background:#22783E;
+    background:#FA2525;
     padding:1.25rem;
     color: #ffffff;
 }
 
 /* header ended here */
 
-main .document{
+
+main .document{ 
+    text-transform: uppercase;
     background-image: url(images/bgmain.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
-    font-family: monospace;
 }
 
 main .document h1 span{
@@ -111,12 +113,55 @@ main .document h2{
     margin-top: 3rem;
 }
 
+/* document section ends here */
 
+.skill-sec h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    text-align: center;
+    margin: 5rem 0 3rem;
+}
 
-
-
-/* .document img{
+.card-body img{
+    height: 300px;
     width: 100%;
-    height: 100vh;
-} */
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body{
+    width: 400px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid rgba(0,0,0,0.3);
+    transition: all 0.5s;
+}
+
+.card-text h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card-text p{
+    padding: 10px;
+}
+
+.card-text h2 abbr{
+    text-decoration: none;
+}
+
+.card-body:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.4);
+    border-radius: 3px solid;
+}
+
 
