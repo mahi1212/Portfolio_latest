@@ -181,7 +181,7 @@ main .document h2{
 /*language-sec starts */
 
 .language-sec{
-    padding: 10rem 5%;
+    padding: 5rem 5%;
 }
 
 .lang-heading{
@@ -223,5 +223,49 @@ main .document h2{
 
 .card:hover{
     transform:rotate(360deg)
-
 }
+.education-sec{
+    padding: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.edu-heading{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+} 
+
+.education-sec table{
+    width: 95%;
+    margin:auto;
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.education-sec table tr{
+    border-collapse: collapse;
+    transition: all 0.1s;
+}
+
+.education-sec table tr td{
+    border: 2px solid #000;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+table .head-line{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.education-sec .active{
+    background-color: rgba(128, 128, 128,.09);
+}
+.education-sec table tr:hover{
+    background-color: rgba(128, 128, 128,.09);
+}
+
