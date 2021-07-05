@@ -11,10 +11,9 @@ body{
 
 header{
     background-color: #220a38;
-
 }
 
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +58,7 @@ nav ul li a:hover{
 }
 
 .btn a{
-    padding:1.25rem;
+    padding:1.2rem;
     font-size: 1.3rem;
     font-weight: bolder;
     text-decoration: none;
@@ -68,6 +67,7 @@ nav ul li a:hover{
     margin-right: 5rem;
     text-transform: uppercase;
 }
+
 .btn a:hover{
     background:#FA2525;
     padding:1.25rem;
@@ -75,8 +75,6 @@ nav ul li a:hover{
 }
 
 /* header ended here */
-
-
 main .document{ 
     text-transform: uppercase;
     background-image: url(images/bgmain.png);
@@ -265,7 +263,60 @@ table .head-line{
 .education-sec .active{
     background-color: rgba(128, 128, 128,.09);
 }
+
 .education-sec table tr:hover{
     background-color: rgba(128, 128, 128,.09);
 }
 
+.client-heading h2{
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-transform: uppercase;
+    border-bottom-color: cornflowerblue;
+}
+
+.client-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.client-section .client-opinion{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-opinion .client-img img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+
+.client-opinion h3{
+    text-align: center;
+    color: rgb(212, 60, 5);
+    padding: 0 0 1rem;
+    margin: 2rem 0 1rem;
+    font-size: 2rem;
+}
+
+.client-text{
+    height: 300px;
+    background: cornflowerblue;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding: 5rem 3rem 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
